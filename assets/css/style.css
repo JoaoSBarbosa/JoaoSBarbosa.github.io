@@ -1,0 +1,400 @@
+/* -- Variável-- */
+:root {
+  --shadow-color: darkturquoise;
+  --bg-color: rgb(255, 255, 255);
+  --color-hover: rgb(93, 223, 255);
+  --bg-color-main: rgb(238, 238, 238);
+}
+
+/* -- Estilização geral-- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(226, 226, 226);
+}
+/* -- display padrão--*/
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+p,
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilização do header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+  padding: 5px 20px;
+}
+
+.logo {
+  height: 200px;
+  padding-bottom: 2rem;
+}
+.logo img {
+  height: 180px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 3rem;
+}
+
+.header-nav li {
+  list-style: none;
+  padding: 10px 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 4px;
+}
+.header-nav li:hover {
+  box-shadow: 1px 1px 10px var(--shadow-color);
+}
+.header-nav a {
+  padding: 0px;
+  margin: 0px;
+  color: #ffff;
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+header a:hover {
+  color: var(--color-hover);
+}
+
+/* Banner area*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.titulo {
+  height: 20vh;
+}
+
+.titulo-text h1,
+i {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.titulo-icon i:hover {
+  color: var(--color-hover);
+  box-shadow: 1px 1px 10px var(--shadow-color);
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Six Caps", sans-serif;
+  letter-spacing: 15px;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h2:hover,
+h1:hover {
+  text-shadow: 1px 1px 8px var(--color-hover);
+}
+
+.element-img {
+  height: 70vh;
+  width: 100%;
+  background-image: url("../img/img-banner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.element-text {
+  padding: 10px;
+}
+.text-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0px;
+  align-items: center;
+  background-color: var(--bg-color-main);
+  border-radius: 5px;
+  padding: 10px;
+}
+.text-card a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+.text-card a:hover {
+  text-decoration: none;
+  color: darkblue;
+  text-transform: capitalize;
+}
+
+.card-imagem {
+  flex: 1;
+}
+.card-imagem img {
+  height: 260px;
+  width: 200px;
+}
+
+.premios {
+  margin-top: 1rem;
+  border-radius: 5px;
+  background-color: var(--bg-color-main);
+  padding-bottom: 2rem;
+}
+.premios-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 10px 0px;
+}
+
+.detalhes-card {
+  border: 2px solid rgb(246, 246, 246);
+  padding: 5px;
+  border-radius: 5px;
+  width: 259px;
+}
+.detalhes-card:hover {
+  border: 2px solid rgb(0, 238, 255);
+  box-shadow: 1px 1px 10px darkcyan;
+}
+
+.card-text {
+  width: 100%;
+  border-radius: 4px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  padding: 10px;
+  text-align: center;
+}
+.card-text:hover {
+  box-shadow: 1px 1px 10px var(--shadow-color);
+  color: var(--color-hover);
+}
+.card-list li {
+  list-style: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding: 1rem 0px 1rem 1rem;
+  margin-bottom: 0.2rem;
+}
+.card-list li:hover {
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: var(--color-hover);
+}
+.card-list a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 1rem;
+}
+
+.feitos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--bg-color-main);
+  padding: 2rem;
+  border-radius: 5px;
+}
+.feitos-card {
+  height: 220;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(197, 197, 197);
+  padding: 15px;
+  border-radius: 10px;
+}
+.feitos-card:hover {
+  background-color: rgb(219, 219, 219);
+  box-shadow: 1px 1px 10px var(--shadow-color);
+}
+.feitos-card img {
+  height: 200px;
+}
+#container-feitos {
+  margin-top: 5rem;
+  background-color: var(--bg-color-main);
+  padding: 2rem 0px;
+}
+.feitos-text {
+  padding: 5px;
+}
+
+#falecimento {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color-main);
+  padding: 1rem 0px;
+  margin-top: 2rem;
+}
+#falecimento a:hover {
+  text-shadow: 1px 1px 10px var(--shadow-color);
+  text-transform: uppercase;
+}
+#card-falecimento {
+  gap: 5rem;
+}
+.falecimento-icon {
+  padding: 1rem;
+}
+.falecimento-icon i {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.falecimento-icon i:hover {
+  font-size: 1.5rem;
+  color: var(--shadow-color);
+}
+footer {
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex,
+.copy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.copy {
+  margin: 5rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.footer-gif {
+  flex: 1;
+}
+.footer-banner-icon {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  width: 200px;
+}
+footer i {
+  color: var(--color-hover);
+}
+footer i:hover {
+  box-shadow: 1px 1px 8px var(--shadow-color);
+}
+.coletion {
+  display: flex;
+  border: 2px solid rgb(24, 24, 24);
+  border-radius: 4px;
+  padding: 15px;
+  margin-top: 1rem;
+  width: 500px;
+}
+.width {
+  height: 4px;
+  width: 40px;
+  background-color: var(--color-hover);
+}
+#sobre-text p {
+  font-size: 1rem;
+}
+.coletion img {
+  height: 200px;
+  padding: 0px;
+}
+
+.titulo img {
+  height: 240px;
+  z-index: 2;
+  align-self: flex-start;
+  padding-left: 0;
+  margin-right: 28rem;
+  margin-bottom: 7rem;
+  display: block;
+}
+@media (min-width: 2560px) {
+  .container {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .logo {
+    height: 200px;
+    padding-bottom: 2rem;
+  }
+  .logo img {
+    height: 180px;
+  }
+  .header-nav {
+    display: flex;
+    gap: 2rem;
+  }
+  .header-nav li {
+    padding: 20px;
+  }
+  .header-nav a {
+    font-size: 2rem;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+  .copy {
+    width: 600px;
+  }
+}
+@media (max-width: 375px) {
+  .card {
+    gap: 25rem;
+  }
+  #img1 {
+    align-self: start;
+  }
+  .header-nav li {
+    padding: 25px;
+  }
+  .header-nav a {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 320px) {
+  .header-nav li {
+    padding: 25px;
+  }
+  .header-nav a {
+    font-size: 2rem;
+  }
+  .header-nav {
+    border: 3px solid red;
+  }
+  .feitos-card {
+    margin: 1rem;
+  }
+}

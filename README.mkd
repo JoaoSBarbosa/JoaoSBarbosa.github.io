@@ -1,0 +1,32 @@
+# Projeto Tributo 
+
+
+
+## Esse projeto faz um tributo ao grande inventor Nikola Tesla :black_heart:
+
+
+
+### Intuito :mag:
+
+- Treinar o posicionamento de elementos através do display flex;
+- Treinar técnicas de responsividade;
+- desenvolver métodos de reaproveitamento de estilização com uso de variáveis e blocos padrões;
+- Homenagear o grande inventor, engenheiro eletrotécnico e engenheiro mecânico sérvio, Nikola Tesla;
+
+### O que foi utilizado ?
+
+- HTML5 :small_orange_diamond:
+
+- CSS3 :small_blue_diamond:
+
+- Font-awesome
+
+- Fontes Google
+
+  
+
+### Fontes
+
+- Imagens: [Artstation](https://br.pinterest.com/pin/668995719653871061/sent/?invite_code=2e49a815328a4f90b8b80badf6a4aa2a&sender=434527201455630438&sfo=1), [Wiki](https://pt.wikipedia.org/wiki/Nikola_Tesla)
+
+- Textos: [Wikipedia](https://pt.wikipedia.org/wiki/Nikola_Tesla)
